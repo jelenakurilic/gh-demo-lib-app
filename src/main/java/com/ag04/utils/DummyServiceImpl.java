@@ -1,5 +1,9 @@
 package com.ag04.utils;
 
+/**
+ *
+ * @author jelenakurilic
+ */
 public class DummyServiceImpl implements DummyService {
 
     @Override
@@ -11,5 +15,5 @@ public class DummyServiceImpl implements DummyService {
     public DummyDTO save(DummyDTO testDto) {
         return testDto;
     }
-    
+
 }
