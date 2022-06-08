@@ -21,12 +21,12 @@ publishing {
             from components.java
         }
     }
-    
+
     repositories {
         if (project.hasProperty('github_username') && project.hasProperty('github_password')) {
             maven {
                 name = "GitHubPackages"
-                url = uri("https://maven.pkg.github.com/ag04/gh-demo-lib")
+                url = uri("https://maven.pkg.github.com/jelenakurilic/gh-demo-lib")
                 credentials {
                     username github_username
                     password github_password
